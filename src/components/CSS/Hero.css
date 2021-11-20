@@ -1,0 +1,102 @@
+.hero1{
+    height:760px;
+    width:100%;
+    background:url(/src/components/images/landing-page.jpg);
+    background-position:0px -100px;
+    background-size: cover;
+    text-align:center;
+ }
+ 
+ .BackgroundFilter{
+   height:100%;
+   width:100%;
+   background-color:rgba(212, 89, 8,0.7);
+   display:flex;
+   flex-direction:column;
+ }
+ 
+ .box {
+   height:100%;
+   width:100%;
+   margin-top: 100px;
+   display:flex;
+   align-items:center;
+   justify-content:space-evenly;
+ }  
+ 
+ .StandoutImg {
+     width:44em;
+     height:34em;  
+ }
+
+ .StandoutImg img{
+    width:100%;
+    height:100%;
+}
+ 
+ .WritenContiner{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:200px;
+    align-items:center;
+ }   
+ 
+ .Title{
+   margin:0;
+   font-size: 40px;
+   line-height:1.7;
+   color:#fff;
+ }
+ 
+ .Slogan {
+   margin:0;
+   line-height:1.4;
+   color:#fff;
+   font-weight:500;
+   font-size: 30px;
+   
+ }
+ 
+ .Button {
+   text-decoration:none;
+   border:none;
+   margin-top:10px;
+   outline:none;
+   color:white;
+   width:50%;
+   padding: 6px 10px;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius:3px;
+   cursor:pointer;
+   background-color:#d45908;
+}
+
+.Button:focus{
+    outline:none
+} 
+
+
+@media(max-width:768px){
+    .hero1{
+      width: 100%;
+        height:700px;   
+        background-position:0px -40px;
+        background:url(/src/components/images/landing-page.jpg) no-repeat;
+        background-size: cover ;
+       } 
+
+   .box{
+      flex-direction: column;
+   }
+
+   .WritenContiner{
+    margin-bottom:100px;
+ }  
+
+   .StandoutImg img{
+    width:80%;
+    height:80%;
+}
+     
+}

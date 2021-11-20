@@ -1,0 +1,145 @@
+.footer1 {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  background: #000;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
+  padding: 1em 1.5em;
+  border-top: 0.8px solid white;
+}
+
+.topcontainer {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2em;
+  margin-left: 20px;
+}
+
+.contentcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomcontianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-top: 0.8px solid white;
+  padding: 0 8px;
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 13px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 46px;
+    text-transform:capitalize;
+}     
+
+.address{
+  margin:0;
+  padding-left: 7px;
+  margin-bottom:10px;
+  color:#fff;
+  text-transform:capitalize;
+}
+
+.rightbottomcontainer{
+    display:flex;
+}
+
+.leftbottomcontainer{
+ display:flex;
+ justify-content:space-evenly;
+  align-items:center;
+}
+
+.social {
+  margin: 0;
+  margin-bottom: 13px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 46px;
+  margin-top: 9px;
+  margin-left: 15px;
+}
+
+.flink{ 
+  text-decoration:none;
+  color:#6f6f6f;
+  font-weight: 400;
+
+   
+}
+
+.flink:not(:last-of-type){
+   margin-bottom:5px;
+  }
+
+.flink:hover{
+  color:white;
+}
+
+.flink1{
+  text-decoration:none;
+  color:#6f6f6f;
+  font-weight: 400;
+}
+
+.flink1:hover{
+  color:white;
+}
+
+.flink1:not(:last-of-type){
+margin-bottom:5px;
+}
+
+.brand{
+  color: #8a8a8a;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.reserved{
+  margin:0;
+  color:#8a8a8a;
+  justify-content:flex-end;
+  margin-top: 9px;
+  margin-left: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .footer1 {
+    padding: 2em 2em;
+    bottom: 0;
+    min-height: 300px;
+  }
+
+  .topcontainer {
+    flex-direction: column;
+  }
+
+  .contentcontainer {
+    margin-right: 2%;
+  }
+
+  .bottomcontianer {
+    flex-direction: column;
+  }
+
+  .brand{
+    display:none;
+  }
+
+  .reserved {
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+}
