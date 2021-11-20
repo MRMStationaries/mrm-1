@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/mrm-1/static/css/main.2731ed9c.chunk.css",
+    "main.js": "/mrm-1/static/js/main.6a927b20.chunk.js",
+    "main.js.map": "/mrm-1/static/js/main.6a927b20.chunk.js.map",
+    "runtime-main.js": "/mrm-1/static/js/runtime-main.701cde48.js",
+    "runtime-main.js.map": "/mrm-1/static/js/runtime-main.701cde48.js.map",
+    "static/js/2.855b147a.chunk.js": "/mrm-1/static/js/2.855b147a.chunk.js",
+    "static/js/2.855b147a.chunk.js.map": "/mrm-1/static/js/2.855b147a.chunk.js.map",
+    "static/js/3.c0ff1975.chunk.js": "/mrm-1/static/js/3.c0ff1975.chunk.js",
+    "static/js/3.c0ff1975.chunk.js.map": "/mrm-1/static/js/3.c0ff1975.chunk.js.map",
+    "index.html": "/mrm-1/index.html",
+    "static/css/main.2731ed9c.chunk.css.map": "/mrm-1/static/css/main.2731ed9c.chunk.css.map",
+    "static/js/2.855b147a.chunk.js.LICENSE.txt": "/mrm-1/static/js/2.855b147a.chunk.js.LICENSE.txt",
+    "static/media/BestQuality.9d640919.png": "/mrm-1/static/media/BestQuality.9d640919.png",
+    "static/media/JKPaper.b38a2f30.png": "/mrm-1/static/media/JKPaper.b38a2f30.png",
+    "static/media/Offer.b003841c.png": "/mrm-1/static/media/Offer.b003841c.png",
+    "static/media/Work only with the best.5d15d247.png": "/mrm-1/static/media/Work only with the best.5d15d247.png",
+    "static/media/anupam.887d8cbd.png": "/mrm-1/static/media/anupam.887d8cbd.png",
+    "static/media/apsara.67a3664a.png": "/mrm-1/static/media/apsara.67a3664a.png",
+    "static/media/camlin.f75fee59.png": "/mrm-1/static/media/camlin.f75fee59.png",
+    "static/media/kangaro.baad1916.png": "/mrm-1/static/media/kangaro.baad1916.png",
+    "static/media/Hero.css": "/mrm-1/static/media/landing-page.51fe984f.jpg",
+    "static/media/warranty.e9ea47cc.png": "/mrm-1/static/media/warranty.e9ea47cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.701cde48.js",
+    "static/js/2.855b147a.chunk.js",
+    "static/css/main.2731ed9c.chunk.css",
+    "static/js/main.6a927b20.chunk.js"
+  ]
+}
